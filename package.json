@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "This is a background generator project. Users can change \r the color plates to generate different background colors.\r In addition, the linear gradien rgb number is displayed \r under the color plates.",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHuang1213/Background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonHuang1213/Background-generator/issues"
+  },
+  "homepage": "https://github.com/JasonHuang1213/Background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
